@@ -1,0 +1,13 @@
+model: ResNet18 features + Attention MIL
+dataset_videos: 105
+training_videos: 67
+validation_videos: 17
+testing_videos: 21
+best_epoch: 21
+threshold: 0.33999999999999997
+accuracy: 80.95
+precision: 81.25
+recall: 92.86
+f1_score: 86.67
+balanced_accuracy: 75.0
+confusion_matrix: [[4, 3], [1, 13]]
